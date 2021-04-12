@@ -1,0 +1,86 @@
+
+/* Estilizar de manera general algunos elementos */
+body {
+    font-family: 'Carter One', cursive;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(139, 231, 200);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Carter One', cursive;
+}
+
+h1 {
+
+}
+
+p {
+font-size: 18px;
+color: rgba(0, 0, 0, 0.692);
+}
+
+a {
+text-decoration: none;
+color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+list-style: none;
+width: 100%;
+margin: 0;
+padding: 0;
+}
+
+/* Estilos personalizados */
+.menu {
+    width: 100%;
+    display: flex;
+    background-color: rgb(77, 153, 240);
+    
+}
+
+.menu li {
+
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.menu li:hover {
+    background-color: aquamarine;
+    font-weight: bold;
+}
+
+.menu li.activo {
+    background-color: aquamarine;
+    font-weight: bold;
+}
+
+.imagen-proyecto-vida {
+width: 300px;
+}
+
+
+.list-ordenada{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.list-ordenada ol{
+    text-align: left;
+}
+.contenido{
+    padding: 0 50px;
+}
+
+.contenido p {
+    text-align: justify;
+}
